@@ -81,6 +81,9 @@ const HeaderContainer = styled.div`
 
 const Logo = styled.img`
   margin-left: 2rem;
+  @media (max-width:450px){
+    margin-left:1rem;
+  }
 `;
 
 const Menu = styled.div`
@@ -115,8 +118,11 @@ const RightMenu = styled.div`
     cursor: pointer;
   }
   @media (max-width: 450px){
+    margin-right:1rem;
+   
     a{
       font-size:0.8rem;
+      padding: 0.3rem;
     }
   }
   
